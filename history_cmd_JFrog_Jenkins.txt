@@ -1,0 +1,898 @@
+    1  apt-get update
+    2  sudo apt-get update
+    3  sudo yum install java-1.8.0-openjdk.x86.* -y
+    4  clear
+    5  sudo apt install openjdk-8-jdk
+    6  sudo apt update
+    7  clear
+    8  alias c=clear
+    9  c
+   10  java -version
+   11  cd /opt/
+   12  ls
+   13  wget http://apachemirror.wuchna.com/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+   14  sudo wget http://apachemirror.wuchna.com/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+   15  ls
+   16  c
+   17  ls
+   18  tar -xvzf apache-maven-3.6.1-bin.tar.gz 
+   19  ls
+   20  ls -a
+   21  sudo tar -xvzf apache-maven-3.6.1-bin.tar.gz 
+   22  ls
+   23  mv apache-maven-3.6.1 maven
+   24  sudo mv apache-maven-3.6.1 maven
+   25  ls
+   26  cd maven/
+   27  vim /etc/profile.d/mavenenv.sh 
+   28  sudo vim /etc/profile.d/mavenenv.sh 
+   29  c
+   30  ls
+   31  source /etc/profile.d/mavenenv.sh 
+   32  mvn --version
+   33  cd ..
+   34  cd ,,
+   35  cd ..
+   36  sudo mvn archetype:generate -DgroupID=com.mycompany.app -DartifactID=myMaven -DarchetypeArtifactID=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   37  sudo mvn --version
+   38  mvn archetype:generate -DgroupID=com.mycompany.app -DartifactID=myMaven -DarchetypeArtifactID=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   39  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   40  ls
+   41  mvn archetype:generate -DgroupID=com.mycompany.app -DartifactID=myMaven -DarchetypeArtifactID=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   42  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   43  sudo apt install openjdk-devel
+   44  sudo apt install default-jdk
+   45  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   46  c
+   47  sudo apt remove --purge openjdk-9-jdk openjdk-9-jre
+   48  sudo apt install openjdk-8-jdk-headless openjdk-9-jre-headless
+   49  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   50  c
+   51  rm -rf rm -rf ~/.m2/repository/org/apache/
+   52  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   53  mvn clean install -X
+   54  rm -rf rm -rf ~/.m2/repository/org/apache/
+   55  mvn clean install -X
+   56  rm -rf rm -rf ~/.m2/repository/org/apache/
+   57  mvn install
+   58  rm -rf rm -rf ~/.m2/repository/org/apache/
+   59  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=falsec
+   60  c
+   61  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   62  rm -rf rm -rf ~/.m2/repository/org/apache/
+   63  mvn install
+   64  c3
+   65  c
+   66  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DinteractiveMode=true
+   67  rm -rf rm -rf ~/.m2/repository/org/apache/
+   68  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   69  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=maven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   70  rm -rf rm -rf ~/.m2/repository/org/apache/
+   71  pwd
+   72  mvn --version
+   73  ls
+   74  mkdir maven
+   75  sudo mkdir maven
+   76  cd maven/
+   77  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=maven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   78  cd
+   79  rm -rf rm -rf ~/.m2/repository/org/apache/
+   80  mvn archetype:generate
+   81  c
+   82  cd mymaven/
+   83  pwd
+   84  sudo apt-get install tree
+   85  tree
+   86  vim pom.xml 
+   87  qc
+   88  c
+   89  mvn compile
+   90  mvn package
+   91  tree
+   92  cat pom.xml 
+   93  cat pom.xml | less
+   94  java -cp target/mymaven-1.0-SNAPSHOT.jar com.mycompany.app.App
+   95  tree
+   96  java -cp target/mymaven-1.0-SNAPSHOT.jar com.mycompany.app.App
+   97  cat pom.xml | less
+   98  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+   99  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app
+  100  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.app
+  101  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  102  tree
+  103  tree | less
+  104  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App.class
+  105  cd 
+  106  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  107  history
+  108  tree | less
+  109  cd mymaven/
+  110  cat pom.xml | less
+  111  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  112  java -cp target/mymaven-1.0-SNAPSHOT.jar
+  113  java -cp . App
+  114  java -cp . App.java
+  115  java -cp . app.java
+  116  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  117  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.App.App
+  118  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.App.app
+  119  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  120  c
+  121  tee
+  122  tree
+  123  java -cp target/mymaven-1.0-SNAPSHOT.jar App
+  124  java -cp target/mymaven-1.0-SNAPSHOT.jar Appc
+  125  c
+  126  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar com.company.app.App
+  127  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar App
+  128  java -cp target/mymaven-1.0-SNAPSHOT.jar App
+  129  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  130  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  131  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar target/mymaven-1.0-SNAPSHOT.jar App
+  132  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  133  c
+  134  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  135  sudo /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  136  echo $CLASSPATH
+  137  sudo java App.class
+  138  sudo java App
+  139  sudo java com.company.app.App
+  140  tree
+  141  c
+  142  vim pom.xml 
+  143  c
+  144  cat pom.xml | head -8
+  145  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  146  java -cp "/home/scripts" com.company.app.App
+  147  cd /home/maven/
+  148  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  149  cd 
+  150  cd mymaven/
+  151  ls
+  152  java -cp App
+  153  java -cp com.company.app.App
+  154  java -cp . App
+  155  javac . App
+  156  c
+  157  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  158  sudo vim ~/.bashrc 
+  159  sudo vim /etc/profile.d/mavenenv.sh 
+  160  q!
+  161  c
+  162  java_home
+  163  JAVA_HOME
+  164  PATH
+  165  java
+  166  java | less
+  167  java | head -5
+  168  java -version
+  169  $JAVA_HOME
+  170  $PATH
+  171  java -version | get
+  172  sudo apt purge java*
+  173  java -version
+  174  sudo apt update
+  175  sudo apt install openjdk-8-jdk -y
+  176  java -version
+  177  rm -rf rm -rf ~/.m2/repository/org/apache/
+  178  mvn compile
+  179  ls
+  180  mvn package
+  181  tree
+  182  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  183  $JAVA_HOME
+  184  $PATH
+  185  java -version
+  186  sudo vim ~/.bashrc 
+  187  $JAVA_HOME
+  188  $PATH
+  189  reboot
+  190  $JAVA_PATH
+  191  $JAVA_HOME
+  192  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  193  rm -rf rm -rf ~/.m2/repository/org/apache/
+  194  mvn archetype:generate
+  195  sudo vim ~/.bashrc 
+  196  mvn archetype:generate
+  197  vim /etc/profile.d/mavenenv.sh 
+  198  source /etc/profile.d/mavenenv.sh 
+  199  mvn archetype:generate
+  200  reboot
+  201  mvn archetype:generate
+  202  rm -rf rm -rf ~/.m2/repository/org/apache/
+  203  mvn archetype:generate
+  204  ls
+  205  cd myMaven/
+  206  tree
+  207  mvn compile
+  208  mvn package
+  209  sudo java -cp target/myMaven-1.0-SNAPSHOT.jar com.mycompany.app.App
+  210  history > command.txt
+  211  git status
+  212  cd ..
+  213  ls
+  214  mkdir gittest
+  215  cd gittest/
+  216  git init
+  217  git config
+  218  location git
+  219  find git
+  220  c
+  221  clear
+  222  man git config
+  223  git config -s
+  224  c
+  225  alias c=clear
+  226  c
+  227  .gitco
+  228  .git
+  229  cat .git
+  230  cat .git/
+  231  c
+  232  git config --global user.name "Rock46"
+  233  git config --global user.email "linuxrakesh@gmail.com"
+  234  git config --list
+  235  vim .gitconfig
+  236  c
+  237  git clone https://github.com/Rock46/gitfirst.git
+  238  git status
+  239  ls
+  240  cd gitfirst/
+  241  ls
+  242  history > Mavnen_git_command.txt
+  243  git status
+  244  git add .
+  245  git comment -m "Command history"
+  246  git commit -m "Command history"
+  247  git push -u origin master
+  248  git log
+  249  ~./gitconfig
+  250  cat ~./gitconfig
+  251  c
+  252  git --list
+  253  git config --list
+  254  nnn\v\cc
+  255  c
+  256  java -version
+  257  cd 
+  258  ls
+  259  c
+  260  cd /tmp/
+  261  ls
+  262  wget https://www.apache.org/dist/tomcat/tomcat-7/v7.0.94/bin/apache-tomcat-7.0.94.tar.gz.asc
+  263  ls
+  264  wget https://www.apache.org/dist/tomcat/tomcat-7/v7.0.94/bin/apache-tomcat-7.0.94.tar.gz
+  265  ls
+  266  tar xzf apache-tomcat-7.0.94.tar.gz 
+  267  ls
+  268  cd /usr/local/tomcat7
+  269  c
+  270  mv apache-tomcat-7.0.94 /usr/local/tomcat7
+  271  sudo mv apache-tomcat-7.0.94 /usr/local/tomcat7
+  272  cd /usr/local/tomcat7
+  273  ./bin/startup.sh 
+  274  ifconfig
+  275  ping www.google.com
+  276  ping 192.168.1.50
+  277  ping 192.168.1.2
+  278  c
+  279  sudo vim /etc/network/interfaces
+  280  c
+  281  /etc/init.d/networking restart
+  282  sudo /etc/init.d/networking restart
+  283  ifconfig
+  284  c
+  285  ifconfig
+  286  ping 192.168.1.4
+  287  ping 192.168.1.2
+  288  c
+  289  locate tomcat-users
+  290  vim /usr/local/tomcat7/conf/tomcat-users.xml 
+  291  ls /maven/
+  292  locate settings.xml
+  293  updatedb
+  294  cd mav
+  295  cd /maven/
+  296  ls
+  297  cd
+  298  ls
+  299  cd myMaven/
+  300  ls
+  301  fin settings.xml
+  302  find settings.xml
+  303  sudo updatedb
+  304  locate settings.xm;
+  305  locate settings.xml
+  306  locate conf
+  307  locate conf/settings
+  308  vim /opt/maven/conf/settings.xml 
+  309  sudo vim /opt/maven/conf/settings.xml 
+  310  ls
+  311  mvn init
+  312  ls
+  313  cd
+  314  mkdir Git_Maven
+  315  cd Git_Maven/
+  316  c
+  317  git clone http://github.com/jleetutoria;/maven-project
+  318  git clone http://github.com/jleetutorial/maven-project
+  319  ls
+  320  cd maven-project/
+  321  ls
+  322  vim pom.xml 
+  323  c
+  324  sudo vim pom.xml 
+  325  ifconfig
+  326  c
+  327  sudo vim pom.xml 
+  328  c
+  329  mvn compile
+  330  mvn package
+  331  ls
+  332  mvn tomcat7:deploy
+  333  ./bin/shutdown.sh 
+  334  sudo service tomcat7 stop
+  335  sudo service tomcat7 start
+  336  sudo tomcat7 restart
+  337  sudo service tomcat7 restart
+  338  ./bin/shutdown.sh 
+  339  ./bin/startup.sh 
+  340  history > command_tomcat_maven_github.txt
+  341  init 1
+  342  reboot
+  343  ./bin/startup.sh 
+  344  ifconfig
+  345  sudo ./bin/startup.sh
+  346  sudo /usr/local/tomcat7/bin/startup.sh
+  347  mvn deploy
+  348  ls
+  349  cd Git_Maven/
+  350  ls
+  351  cd maven-project/
+  352  ls
+  353  mvn deploy\
+  354  mvn deploy
+  355  mvn compile
+  356  mvn package
+  357  mvn deploy
+  358  mvn tomcat7:deploy
+  359  sudo vim pom.xml 
+  360  mvn tomcat7:deploy
+  361  history > command_tomcat_maven_github_New.txt
+  362  cat command_tomcat_maven_github | less
+  363  cat command_tomcat_maven_github_New.txt | less
+  364  git status
+  365  git --status
+  366  git config --list
+  367  pwd
+  368  cd
+  369  ls
+  370  cd myMaven/
+  371  ls
+  372  cp /home/maven/Git_Maven/maven-project/command_tomcat_maven_github* .
+  373  ls
+  374  cp /home/maven/Git_Maven/maven-project/command_tomcat_maven_github*.* .
+  375  ls
+  376  cp /home/maven/Git_Maven/maven-project/command_tomcat_maven_github_New.txt .
+  377  ls
+  378  git config --list
+  379  cd
+  380  ls
+  381  cd gittest/
+  382  git config --list
+  383  cd
+  384  cd myMaven/
+  385  ls
+  386  cd
+  387  cd Git_Maven/
+  388  ls
+  389  cd maven-project/
+  390  cp /home/maven/Git_Maven/maven-project/command_tomcat_maven_github_New.txt .
+  391  ls
+  392  git config --list
+  393  cd
+  394  ls
+  395  cd myMaven/
+  396  ls
+  397  git clone https://github.com/Rock46/gitfirst.git
+  398  cd gitfirst/
+  399  ls
+  400  cp /home/maven/Git_Maven/maven-project/command_tomcat_maven_github_New.txt .
+  401  ls
+  402  git status
+  403  cp /home/maven/Git_Maven/maven-project/command_tomcat_maven_github*.* .
+  404  git status
+  405  git add .
+  406  git commit -m "History_Cmd_Maven_Tomcat_Git" 
+  407  git push -u origin master
+  408  cd
+  409  ls
+  410  cd mymaven/
+  411  ls
+  412  mvn archetype:generate
+  413  rm -rf -rm ~/.m2/repository/org/apache/
+  414  rm -rf rm -rf ~/.m2/repository/org/apache/
+  415  mvn archetype:generate
+  416  c
+  417  clear
+  418  sudo vim /etc/profile.d/mavenenv.sh 
+  419  cd
+  420  cd jfrog
+  421  mkdir Jfrog
+  422  cd Jfrog/
+  423  c
+  424  alias c=clear
+  425  c
+  426  java -version
+  427  c
+  428  gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  429  sudo gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  430  c
+  431  sudo gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  432  ping google.com
+  433  c
+  434  sudo gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  435  gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  436  sudo gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  437  c
+  438  gpg --keyserver pgpkeys.mit.edu --recv-key 6B219DCCD7639232
+  439  sudo gpg -a --export 6B219DCCD7639232 | sudo apt-key add --
+  440  sudo apt-get update
+  441  wget https://bintray.com/artifact/download/jfrog/artifactory-debs/pool/main/j/jfrog-artifactory-oss-deb/jfrog-artifactory-oss-4.8.9.deb
+  442  c
+  443  wget https://bintray.com/artifact/download/jfrog/artifactory-debs/pool/main/j/jfrog-artifactory-oss-deb/jfrog-artifactory-oss-4.8.0.deb
+  444  wget https://bintray.com/artifact/download/jfrog/artifactory-debs/pool/main/j/jfrog-artifactory-oss-deb/jfrog-artifactory-oss-4.8.0.debc
+  445  c
+  446  dpkg -i jfrog-artifactory-oss-4.8.0.deb 
+  447  sudo dpkg -i jfrog-artifactory-oss-4.8.0.deb 
+  448  service artifactory start
+  449  ifconfig
+  450  iptables -I INPUT 1 -p tcp --dport 8081 -j ACCEPT
+  451  sudo iptables -I INPUT 1 -p tcp --dport 8081 -j ACCEPT
+  452  c
+  453  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apk-key add -
+  454  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  455  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary / > /etc/apt/sources.list.d/jenkins.list
+  456  q
+  457  q
+  458  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary / > /etc/apt/sources.list.d/jenkins.list'
+  459  sudo apt update
+  460  sudo apt install jenkines
+  461  sudo apt install jenkins
+  462  c
+  463  sudo apt install jenkins
+  464  sudo apt-get install jenkins
+  465  c
+  466  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  467  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary / > /etc/apt/sources.list.d/jenkins.list'
+  468  sudo apt-get install jenkins
+  469  wget -q -O - https://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+  470  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  471  sudo sh -c 'echo deb https://pkg.jenkins.io/debian binary / > /etc/apt/sources.list.d/jenkins.list'
+  472  sudo apt-get update
+  473  sudo apt-get install jenkins
+  474  sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  475  sudo sh -c 'echo deb https://pkg.jenkins.io/debian binary / > /etc/apt/sources.list.d/jenkins.list'
+  476  sudo apt-get install jenkins
+  477  c
+  478  sudo sh -c 'echo deb http://pkg.jenkins.io/debian binary / > /etc/apt/sources.list.d/jenkins.list'
+  479  sudo apt-get install jenkins
+  480  sudo apt-get install nginx
+  481  c
+  482  systemctl status jenkins
+  483  sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  484  sudo sh -c 'echo deb http://pkg.jenkins.io/debian binary / > /etc/apt/sources.list.d/jenkins.list'
+  485  cat /etc/apt/sources.list.d/jenkins.list 
+  486  sudo sh -c 'echo deb http://pkg.jenkins.io/debian binary / > /etc/apt/sources.list.d/jenkins.list'
+  487  sudo apt-get install jenkins
+  488  sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  489  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary / > /etc/apt/sources.list.d/jenkins.list'
+  490  sudo apt-get update
+  491  reboot
+  492  sysyemctl reboot -i
+  493  systemctl reboot -i
+  494  sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins.ci.org.key | sudo apt-key add -
+  495  sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  496  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary / > /etc/apt/sources.list.d/jenkins.list'
+  497  sudo apt-get update
+  498* sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary /> /etc/apt/sources.list.d/jenkins.list'
+  499  sudo apt-get update
+  500  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/> /etc/apt/sources.list.d/jenkins.list'
+  501  sudo apt-get update
+  502  sudo apt-get install jenkins
+  503  cat /var/lib/jenkins/secret/initialAdminPassword
+  504  cat /var/lib/jenkins/secrets/initialAdminPassword
+  505  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  506  c
+  507  alias c=clear
+  508  c
+  509  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  510  c
+  511  ls
+  512  cd myMaven/
+  513  ls
+  514  pwd
+  515  maven -version
+  516  maven --version
+  517  mvn --version
+  518  ifconfig
+  519  c
+  520  ls
+  521  cd gitfirst/
+  522  ls
+  523  cd .
+  524  cd ..
+  525  cd gitSecond
+  526  mkdir gitSecond
+  527  cd git
+  528  cd gitSecond/
+  529  git init
+  530  c
+  531  git clone http://github.com/jenkins-docs/simple-java-maven-app
+  532  ls
+  533  cd simple-java-maven-app/
+  534  ls
+  535  git pull master
+  536  git pull -u original master
+  537  git pull -o original master
+  538  git pull -u origin master
+  539  git pull origin master
+  540  ls
+  541  c
+  542  git clone https://github.com/Rock46/gitSecond.git
+  543  ls
+  544  cd gitSecond/
+  545  ls
+  546  cd
+  547  mkdir gitSec
+  548  cd gitSec/
+  549  pwd
+  550  ls
+  551  cd
+  552  ls
+  553  cd myMaven/
+  554  ls
+  555  cd gitSecond/
+  556  ls
+  557  cd simple-java-maven-app/
+  558  pwd
+  559  cp *.* /home/maven/gitSec/
+  560  cd /home/maven/gitSec/
+  561  ls
+  562  cd .
+  563  ls
+  564  cd /home/maven/myMaven/gitSecond/simple-java-maven-app/
+  565  ls
+  566  gitSecond/
+  567  ls
+  568  cd gitSecond/
+  569  ls
+  570  cd * /home/maven/gitSec/
+  571  cd . /home/maven/gitSec/
+  572  ls /home/maven/gitSec/
+  573  cp * /home/maven/gitSec/
+  574  cp . /home/maven/gitSec/
+  575  cp *.* /home/maven/gitSec/
+  576  ls /home/maven/gitSec/
+  577  cp -r *.* /home/maven/gitSec/
+  578  cp -r . /home/maven/gitSec/
+  579  ls /home/maven/gitSec/
+  580  cp -r /home/maven/myMaven/gitSecond/simple-java-maven-app/gitSecond/ /home/maven/gitSec/
+  581  ls /home/maven/gitSec/
+  582  ls /home/maven/gitSec/gitSecond/
+  583  ls
+  584  cp -r /home/maven/myMaven/gitSecond/simple-java-maven-app/ /home/maven/gitSec/
+  585  ls
+  586  ls /home/maven/gitSec/gitSecond/
+  587  ls
+  588  cd .
+  589  cd ..
+  590  ls
+  591  cp -r /home/maven/myMaven/gitSecond/simple-java-maven-app /home/maven/gitSec/
+  592  sudo cp -r /home/maven/myMaven/gitSecond/simple-java-maven-app /home/maven/gitSec/
+  593  ls /home/maven/gitSec/gitSecond/
+  594  ls /home/maven/gitSec
+  595  ls /home/maven/gitSec/simple-java-maven-app/
+  596  c
+  597  cd
+  598  ls
+  599  cd gitSec/
+  600  ls
+  601  cd simple-java-maven-app/
+  602  ls
+  603  git clone https://github.com/Rock46/gitSecond
+  604  git init
+  605  git clone https://github.com/Rock46/gitSecond
+  606  git remote add origin https://github/com/Rock46/gitSecond/git
+  607  git remote rm origin
+  608  git clone https://github.com/Rock46/gitSecond
+  609  git remote rm origin https://github/com/Rock46/gitSecond/git
+  610  git clone https://github.com/Rock46/gitSecond
+  611  git remote -v
+  612  git remote rm origin
+  613  sudo git remote rm origin
+  614  git remote rm origin
+  615  git remote rm origin https://github.com/Rock46/gitSecond
+  616  git remote remove origin 
+  617  git clone https://github.com/Rock46/gitSecd
+  618  ls
+  619  cp -r . ./gitSecd/
+  620  cp -r /home/maven/gitSec/simple-java-maven-app/ ./gitSecd/
+  621  ls
+  622  cp -r /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec/simple-java-maven-app/gitSecd/
+  623  sudo cp -r /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec/simple-java-maven-app/gitSecd/
+  624  ls
+  625  cd gitSecd/
+  626  ls
+  627  cd simple-java-maven-app/
+  628  ls
+  629  gitSecd/
+  630  ls
+  631  cd gitSecd/
+  632  ls
+  633  cd
+  634  cd /home/maven/
+  635  ls
+  636  cd gitSec/
+  637  ls
+  638  rm -r .
+  639  rm -r *.*
+  640  ls
+  641  rmdir -r *.*
+  642  ls
+  643  c
+  644  ls
+  645  c
+  646  rn -rf *.*
+  647  rm -rf *.*
+  648  ls
+  649  rm -rf gitSecond/
+  650  rm -rf simple-java-maven-app/
+  651  sudo rm -rf simple-java-maven-app/
+  652  ls
+  653  c
+  654  git clone https://github.com/jenkins-docs/simple-java-maven-app
+  655  ls
+  656  simple-java-maven-app/
+  657  ls
+  658  cd simple-java-maven-app/
+  659  ls
+  660  git clone https://github.com/Rock46/gitSecd
+  661  ls
+  662  git push -u origin master
+  663  cd gitSecd/
+  664  ls
+  665  c
+  666  ls
+  667  cd ..
+  668  ls
+  669  cp -r . ./gitSecd/
+  670  cp -r *.* . ./gitSecd/
+  671  c
+  672  ls
+  673  cd gitSecd/
+  674  ls
+  675  sudo rm -rf ./gitSecd/
+  676  ls
+  677  cd jenkins/
+  678  ls
+  679  cd ..
+  680  c
+  681  git push -u origin master
+  682  cd //
+  683  cd ..
+  684  cd /
+  685  cd
+  686  ls
+  687  cd gitSec/
+  688  ls
+  689  cd simple-java-maven-app/
+  690  ls
+  691  cd ..
+  692  git push origin master
+  693  c
+  694  ls
+  695  cd simple-java-maven-app/
+  696  ls
+  697  cp -r /home/maven/gitSec/ /home/maven/gitSec/simple-java-maven-app/
+  698  cp -r /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec
+  699  cd
+  700  cd .
+  701  cd.
+  702  c
+  703  cd /home/maven/gitSec/
+  704  ls
+  705  git clone https://github.com/Rock46/gitSecd
+  706  ls
+  707  cp -r /home/maven/gitSec/ /home/maven/gitSec/gitSecd/
+  708  cp -r /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec/gitSecd/
+  709  ls
+  710  cd gitSecd/
+  711  ls
+  712  cd simple-java-maven-app/
+  713  ls
+  714  cd
+  715  cd /home/maven/gitSec/
+  716  ls
+  717  rm -rf simple-java-maven-app/
+  718  ls
+  719  cld
+  720  c
+  721  ls
+  722  cd gitSecd/
+  723  ls
+  724  cd simple-java-maven-app/
+  725  ls
+  726  cd ..
+  727  ls
+  728  rm -rf gitSec/
+  729  ls
+  730  cp ./simple-java-maven-app/ .
+  731  cp -r ./simple-java-maven-app/ .
+  732  c
+  733  ls
+  734  mv *.* ./simple-java-maven-app/ .
+  735  mv *.* ./simple-java-maven-app/ /home/maven/gitSec/gitSecd/
+  736  ls
+  737  cd ..
+  738  ls
+  739  mv -r /home/maven/gitSec/gitSecd/simple-java-maven-app/ /home/maven/gitSec/
+  740  mv  /home/maven/gitSec/gitSecd/simple-java-maven-app/ /home/maven/gitSec/
+  741  ls
+  742  cd simple-java-maven-app/
+  743  ls
+  744  cd ..
+  745  mv  /home/maven/gitSec/gitSecd/simple-java-maven-app/*.* /home/maven/gitSec/
+  746  ls /home/maven/gitSec/gitSecd/simple-java-maven-app/
+  747  ls
+  748  c
+  749  ls
+  750  ls ./simple-java-maven-app/
+  751  mv /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec/
+  752  ls
+  753  mv *.* /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec/
+  754  mv -r /home/maven/gitSec/simple-java-maven-app/ /home/maven/gitSec/
+  755  ls
+  756  cd simple-java-maven-app/
+  757  ls
+  758  rm -r gitSec
+  759  c
+  760  rm -rf ./gitSec
+  761  ls
+  762  rm -rf ./gitSecd/
+  763  ls
+  764  git push origin master
+  765  c
+  766  ls
+  767  cd ..
+  768  ls
+  769  cd simple-java-maven-app/
+  770  ls
+  771  git push origin master
+  772  git clone https://github.com/Rock46/gitSecd
+  773  ls
+  774  git push origin master
+  775  cd gitSecd/
+  776  ls
+  777  c
+  778  ls
+  779  cd ..
+  780  ls
+  781  cp . ./gitSecd/
+  782  cp /home/maven/gitSec/simple-java-maven-app/ ./gitSecd/
+  783  ls
+  784  cp -r /home/maven/gitSec/simple-java-maven-app/ ./gitSecd/
+  785  cp -r /home/maven/gitSec/simple-java-maven-app/ ./gitSecd
+  786  cp -r /home/maven/gitSec/simple-java-maven-app/jenkins/ ./gitSecd/
+  787  ls
+  788  cd gitSecd/
+  789  ls
+  790  cd jenkins/
+  791  ls
+  792  cd ..
+  793  ls
+  794  cp -r /home/maven/gitSec/simple-java-maven-app/src/ ./gitSecd/
+  795  cp -r /home/maven/gitSec/simple-java-maven-app/pom.xml ./gitSecd/
+  796  cp -r /home/maven/gitSec/simple-java-maven-app/README.md ./gitSecd/
+  797  ls
+  798  cd gitSecd/
+  799  ls
+  800  rm -rf simple-java-maven-app/
+  801  ls
+  802  ls ./src/
+  803  c
+  804  git push origin master
+  805  cd
+  806  cd /home/maven/
+  807  ls
+  808  rm -rf ./gitSec/
+  809  ls
+  810  cd gitTest1
+  811  mkdir gitTest1
+  812  ls
+  813  cd gitTest1/
+  814  ls
+  815  git clone https://github.com/jenkins-docs/simple-java-maaven-app
+  816  sadfads;fkbadsklfbadsfasd"F;jjw
+  817  git clone https://github.com/jenkins-docs/simple-java-maaven-app.git
+  818  c
+  819  ls
+  820  git clone https://github.com/jenkins-docs/simple-java-maven-app.git
+  821  ls
+  822  cd simple-java-maven-app/
+  823  ls
+  824  cd ..
+  825  ls
+  826  cd ..
+  827  ls
+  828  mkdir gittest3
+  829  git clone https://github.com/Roc46/gitSecd
+  830  c
+  831  git clone https://github.com/Roc46/gitSecd.git
+  832  ls
+  833  cd gittest3/
+  834  ls
+  835  c
+  836  git clone https://github.com/Roc46/gitSecd.git
+  837  c
+  838  git clone https://github.com/Rock46/gitSecd.git
+  839  ls
+  840  cd gitSecd/
+  841  ls
+  842  cp -r /home/maven/gitTest1/simple-java-maven-app/ .
+  843  ls
+  844  cd simple-java-maven-app/
+  845  ls
+  846  cd ..
+  847  git push origin master
+  848  git status
+  849  git add .
+  850  git status
+  851  git commit -m "Maven-Jenkin file" .
+  852  git push origin master
+  853  git remote add origin https://github.com/Rock46/gitSecd.git
+  854  git push -u origin master
+  855  ls
+  856  c
+  857  ls
+  858  mv ./simple-java-maven-app/ .
+  859  mv ./simple-java-maven-app/ 
+  860  ls ./simple-java-maven-app/ 
+  861  cp ./simple-java-maven-app/jenkins/ .
+  862  ls ./simple-java-maven-app/ 
+  863  ls
+  864  c
+  865  ls ./simple-java-maven-app/ 
+  866  cp -r ./simple-java-maven-app/ /home/maven/gittest3/
+  867  ls
+  868  cp -r ./simple-java-maven-app/jenkins/ /home/maven/gittest3/
+  869  cp -r ./simple-java-maven-app/src/ /home/maven/gittest3/
+  870  cp -r ./simple-java-maven-app/pom.xml /home/maven/gittest3/
+  871  cp -r ./simple-java-maven-app/README.md /home/maven/gittest3/
+  872  ls
+  873  cd ..
+  874  ls
+  875  rm -rf simple-java-maven-app/
+  876  ls
+  877  cp -r ./jenkins/ /home/maven/gittest3/gitSecd/
+  878  cp -r ./src/ /home/maven/gittest3/gitSecd/
+  879  cp -r ./pom.xml/ /home/maven/gittest3/gitSecd/
+  880  ls
+  881  ls ./gitSecd/
+  882  cp -r ./pom.xml /home/maven/gittest3/gitSecd/
+  883  cp -r ./README.md /home/maven/gittest3/gitSecd/
+  884  ls ./gitSecd/
+  885  rm -rf ./gitSecd/simple-java-maven-app/
+  886  ls ./gitSecd/
+  887  ls
+  888  git gitSecd/
+  889  ls
+  890  c
+  891  cd gitSecd/
+  892  ls
+  893  git status
+  894  git add .
+  895  git status
+  896  git commit -m "Maven Jenkins project example"
+  897  git push -u origin master
+  898  history > history_cmd_JFrog_Jenkins.txt
